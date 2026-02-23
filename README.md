@@ -3,8 +3,9 @@ Web-API for [gamerpower.com](https://www.gamerpower.com) website to find the bes
 
 ## Example
 ```python3
-import gamer_power
-gamer_power = gamer_power.GamerPower()
+from gamer_power import GamerPower
+
+gamer_power = GamerPower()
 giveaways = gamer_power.get_giveaways()
 print(giveaways)
 ```
